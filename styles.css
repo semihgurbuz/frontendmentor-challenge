@@ -1,0 +1,127 @@
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: xx-large;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+   width: 80%;
+   padding-bottom: 40%;   
+}
+
+a{
+    position: relative;
+    top: 40px;
+   
+}
+
+img{
+    display: block;
+padding-top: 15%;
+}
+
+.grid{
+margin: 100px 200px 5px 200px ;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.first{
+    background-color: hsl(31, 77%, 52%);
+    padding-bottom: 100px;
+}
+
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 100px;
+}
+
+.third{
+background-color: hsl(179, 100%, 13%);
+padding-bottom: 100px;
+}
+
+.btn1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Lexend Deca";
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: hsl(31, 77%, 52%);
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+  }
+
+  .btn2 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Lexend Deca";
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: hsl(184, 100%, 22%);
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+  }
+
+  .btn3 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Lexend Deca";
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    text-decoration: none;
+  }
+  
+  .btn3:hover {
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+  }
+
+.firstdiv{
+margin-left: 15%;
+
+}
+.seconddiv{
+    margin-left: 15%;
+}
+.thirddiv{
+    margin-left: 15%;
+}
+
+.attribution{
+    display: none;
+}
